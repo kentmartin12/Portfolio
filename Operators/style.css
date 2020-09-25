@@ -1,0 +1,1005 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background: #272727; */
+}
+
+.container {
+    width: auto;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #272727;
+}
+
+.header .headerKiri {
+    width: 90%;
+}
+
+.header .headerKiri .logo img {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 120px;
+    margin-left: 73px;
+    justify-items: center;
+}
+
+.header .headerKanan {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .avatar img {
+    height: 70%;
+    width: 70%;
+}
+
+.header .lang img {
+    width: 28px;
+    height: 23px;
+}
+
+.header .dropdown img {
+    width: 15px;
+    height: 11px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    background: #272727;
+    border-top: white;
+    border-bottom: white;
+    border-style: solid;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header2 .logo2 img {
+    height: 60px;
+    width: 160px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.header2 .navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    width: 60px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.home .btnHome {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 1vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.operators .btnOperators {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 1vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.preorder .btnPreorder {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 1vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.navbar .others {
+    padding-top: 20px;
+    font-size: 1vw;
+}
+
+.navbar .other {
+    display: flex;
+    flex-direction: row;
+}
+
+.other .dropdown img {
+    width: 15px;
+    height: 11px;
+    margin-left: 10px;
+}
+
+.dropdownnya {
+    display: none;
+}
+
+.quarantine .btnQuarantine {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    font-size: 1vw;
+    background-color: #617be3;
+    margin-top: 20px;
+    margin-left: -20px;
+    padding-left: 20px;
+    color: whitesmoke;
+}
+
+.maps .btnMaps {
+    cursor: pointer;
+    border: none;
+    padding-right: 77px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    font-size: 1vw;
+    background-color: #617be3;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.home .btnHome:hover {
+    background-color: #617be3;
+}
+
+.operators .btnOperators:hover {
+    background-color: #617be3;
+}
+
+.preorder .btnPreorder:hover {
+    background-color: #617be3;
+}
+
+.navbar .others:hover {
+    background-color: #617be3;
+}
+
+.navbar .others:hover .dropdownnya {
+    /* background-color: #617be3; */
+    display: flex;
+    flex-direction: column;
+}
+
+.quarantine .btnQuarantine:hover {
+    background-color: #575757;
+}
+
+.maps .btnMaps:hover {
+    background-color: #575757;
+}
+
+.section1 {
+    background-image: url(../Asset/BGoperators.png);
+    width: 100%;
+}
+
+.judul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 3.1vw;
+    margin-top: 100px;
+}
+
+.subJudul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subJudul h3 {
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    font-size: 1.7vw;
+}
+
+.attackers {
+    width: 100%;
+}
+
+.newAtk {
+    background-color: #272727;
+    border: solid #36a9e0;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.newAtk h1 {
+    font-size: 2vw;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.frontline {
+    display: flex;
+    flex-direction: column;
+}
+
+.frontline h3 {
+    font-weight: 200;
+    font-size: 1.7vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.operatorContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.amaru {
+    display: flex;
+    flex-direction: column;
+}
+
+.amaru img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.amaru .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.ash {
+    display: flex;
+    flex-direction: column;
+}
+
+.ash img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.ash .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.blitz {
+    display: flex;
+    flex-direction: column;
+}
+
+.blitz img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.blitz .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.hibana {
+    display: flex;
+    flex-direction: column;
+}
+
+.hibana img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.hibana .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.crowdControl {
+    display: flex;
+    flex-direction: column;
+}
+
+.crowdControl h3 {
+    font-weight: 200;
+    font-size: 1.7vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.operatorContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gridlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridlock img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.gridlock .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.lion {
+    display: flex;
+    flex-direction: column;
+}
+
+.lion img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.lion .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.nomad {
+    display: flex;
+    flex-direction: column;
+}
+
+.nomad img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.nomad .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.defenders {
+    width: 100%;
+}
+
+.newDef {
+    background-color: #272727;
+    border: solid #36a9e0;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.newDef h1 {
+    font-size: 2vw;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.secure {
+    display: flex;
+    flex-direction: column;
+}
+
+.secure h3 {
+    font-weight: 200;
+    font-size: 1.7vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.operatorContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.castle {
+    display: flex;
+    flex-direction: column;
+}
+
+.castle img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.castle .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.echo {
+    display: flex;
+    flex-direction: column;
+}
+
+.echo img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.echo .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.goyo {
+    display: flex;
+    flex-direction: column;
+}
+
+.goyo img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.goyo .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.kaid {
+    display: flex;
+    flex-direction: column;
+}
+
+.kaid img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.kaid .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.mozzie {
+    display: flex;
+    flex-direction: column;
+}
+
+.mozzie img {
+    background-color: #272727;
+    border: solid #36a9e0;
+    height: 80%;
+    width: 80%;
+}
+
+.mozzie .namaOperator {
+    font-size: 1.7vw;
+    font-weight: 200;
+    background-color: #272727;
+    border-right: solid #36a9e0;
+    border-left: solid #36a9e0;
+    border-bottom: solid #36a9e0;
+    color: whitesmoke;
+    width: 80%;
+    text-align: center;
+}
+
+.judul2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.judul2 h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2.5vw;
+}
+
+.viewChar {
+    display: flex;
+    justify-content: center;
+}
+
+.btnViewChar {
+    border: solid #36a9e0;
+    background-color: #272727;
+    color: whitesmoke;
+    font-size: 1.8vw;
+    padding: 1% 2%;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.btnViewChar:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #191919;
+}
+
+.footerKiri {
+    width: 50%;
+    margin-right: 1px;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footerKanan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    font-size: 0.4vw;
+    color: whitesmoke;
+    margin-left: 85px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        background-color: #272727;
+    }
+
+    .header .headerKiri {
+        width: 80%;
+    }
+
+    .header .headerKiri .logo img {
+        height: 45px;
+        width: 120px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 50px;
+
+    }
+
+    .header .headerKanan {
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header .avatar img {
+        height: 90%;
+        width: 90%;
+    }
+
+    .header .lang img {
+        width: 28px;
+        height: 23px;
+    }
+
+    .header .dropdown img {
+        width: 15px;
+        height: 11px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        margin-right: 79px;
+    }
+
+    .header2 {
+        display: flex;
+        flex-direction: row;
+        background: #272727;
+        border-top: white;
+        border-bottom: white;
+        border-style: solid;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .header2 .logo2 img {
+        height: 60px;
+        width: 160px;
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+
+    .header2 .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .home .btnHome {
+        cursor: pointer;
+        border: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        font-size: 2vw;
+        background-color: #272727;
+        color: whitesmoke;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .operators .btnOperators {
+        cursor: pointer;
+        border: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        font-size: 2vw;
+        background-color: #272727;
+        color: whitesmoke;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .preorder .btnPreorder {
+        cursor: pointer;
+        border: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        font-size: 2vw;
+        background-color: #272727;
+        color: whitesmoke;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .navbar .others {
+        padding-top: 20px;
+        font-size: 2vw;
+    }
+
+    .navbar .other {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .other .dropdown img {
+        width: 15px;
+        height: 11px;
+        margin-left: 10px;
+    }
+
+    .dropdownnya {
+        display: none;
+    }
+
+    .quarantine .btnQuarantine {
+        cursor: pointer;
+        border: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 27px;
+        font-size: 2vw;
+        background-color: #617be3;
+        margin-top: 20px;
+        margin-left: -20px;
+        padding-left: 20px;
+        color: whitesmoke;
+    }
+
+    .maps .btnMaps {
+        cursor: pointer;
+        border: none;
+        padding-right: 77px;
+        padding-top: 20px;
+        padding-bottom: 27px;
+        font-size: 2vw;
+        background-color: #617be3;
+        color: whitesmoke;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .home .btnHome:hover {
+        background-color: #617be3;
+    }
+
+    .operators .btnOperators:hover {
+        background-color: #617be3;
+    }
+
+    .preorder .btnPreorder:hover {
+        background-color: #617be3;
+    }
+
+    .navbar .others:hover {
+        background-color: #617be3;
+    }
+
+    .navbar .others:hover .dropdownnya {
+        /* background-color: #617be3; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quarantine .btnQuarantine:hover {
+        background-color: #575757;
+    }
+
+    .maps .btnMaps:hover {
+        background-color: #575757;
+    }
+
+    .judul h1 {
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 5vw;
+        margin-top: 100px;
+    }
+
+    .subJudul h3 {
+        color: whitesmoke;
+        font-weight: 500;
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: 100px;
+        font-size: 2vw;
+    }
+
+    .newAtk h1 {
+        font-size: 3vw;
+        color: whitesmoke;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .frontline h3 {
+        font-weight: 200;
+        font-size: 2vw;
+        text-align: center;
+        color: whitesmoke;
+    }
+
+    .amaru .namaOperator {
+        font-size: 3vw;
+    }
+
+    .ash .namaOperator {
+        font-size: 3vw;
+    }
+
+    .blitz .namaOperator {
+        font-size: 3vw;
+    }
+
+    .hibana .namaOperator {
+        font-size: 3vw;
+    }
+
+    .crowdControl h3 {
+        font-size: 2vw;
+    }
+
+    .gridlock .namaOperator {
+        font-size: 3vw;
+    }
+
+    .lion .namaOperator {
+        font-size: 3vw;
+    }
+
+    .nomad .namaOperator {
+        font-size: 3vw;
+    }
+
+    .newDef h1 {
+        font-size: 3vw;
+    }
+
+    .secure h3 {
+        font-size: 2vw;
+    }
+
+    .castle .namaOperator {
+        font-size: 3vw;
+    }
+
+    .echo .namaOperator {
+        font-size: 3vw;
+    }
+
+    .goyo .namaOperator {
+        font-size: 3vw;
+    }
+
+    .kaid .namaOperator {
+        font-size: 3vw;
+    }
+
+    .mozzie .namaOperator {
+        font-size: 3vw;
+    }
+
+    .judul2 h1 {
+        font-size: 3vw;
+    }
+
+    .btnViewChar {
+        font-size: 2.1vw;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        background-color: #191919;
+    }
+
+    .footerKiri {
+        width: 50%;
+        margin-right: 1px;
+        /* margin-left: 80px; */
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    /* .footerKiri img {
+        margin-bottom: 10px;
+    } */
+
+    .footerKanan {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+        font-size: 1vw;
+        color: whitesmoke;
+        margin-left: 85px;
+    }
+}

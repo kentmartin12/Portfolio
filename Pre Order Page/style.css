@@ -1,0 +1,885 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #272727;
+}
+
+.container {
+  width: auto;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #272727;
+}
+
+.header .headerKiri {
+  width: 90%;
+}
+
+.header .headerKiri .logo img {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  width: 120px;
+  margin-left: 73px;
+
+}
+
+.header .headerKanan {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .avatar img {
+  height: 70%;
+  width: 70%;
+}
+
+.header .lang img {
+  width: 28px;
+  height: 23px;
+}
+
+.header .dropdown img {
+  width: 15px;
+  height: 11px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+
+.header2 {
+  display: flex;
+  flex-direction: row;
+  background: #272727;
+  border-top: white;
+  border-bottom: white;
+  border-style: solid;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header2 .logo2 img {
+  height: 60px;
+  width: 160px;
+  margin-left: 80px;
+  margin-right: 40px;
+}
+
+.header2 .navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  width: 60px;
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.home .btnHome {
+  cursor: pointer;
+  border: none;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 31px;
+  font-size: 1vw;
+  background-color: #272727;
+  color: whitesmoke;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.operators .btnOperators {
+  cursor: pointer;
+  border: none;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 31px;
+  font-size: 1vw;
+  background-color: #272727;
+  color: whitesmoke;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.preorder .btnPreorder {
+  cursor: pointer;
+  border: none;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 31px;
+  font-size: 1vw;
+  background-color: #272727;
+  color: whitesmoke;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.navbar .others {
+  padding-top: 20px;
+  font-size: 1vw;
+}
+
+.navbar .other {
+  display: flex;
+  flex-direction: row;
+}
+
+.other .dropdown img {
+  width: 15px;
+  height: 11px;
+  margin-left: 10px;
+}
+
+.dropdownnya {
+  display: none;
+}
+
+.quarantine .btnQuarantine {
+  cursor: pointer;
+  border: none;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 27px;
+  font-size: 1vw;
+  background-color: #617be3;
+  margin-top: 20px;
+  margin-left: -20px;
+  padding-left: 20px;
+  color: whitesmoke;
+}
+
+.maps .btnMaps {
+  cursor: pointer;
+  border: none;
+  padding-right: 77px;
+  padding-top: 20px;
+  padding-bottom: 27px;
+  font-size: 1vw;
+  background-color: #617be3;
+  color: whitesmoke;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+
+.home .btnHome:hover {
+  background-color: #617be3;
+}
+
+.operators .btnOperators:hover {
+  background-color: #617be3;
+}
+
+.preorder .btnPreorder:hover {
+  background-color: #617be3;
+}
+
+.navbar .others:hover {
+  background-color: #617be3;
+}
+
+.navbar .others:hover .dropdownnya {
+  /* background-color: #617be3; */
+  display: flex;
+  flex-direction: column;
+}
+
+.quarantine .btnQuarantine:hover {
+  background-color: #575757;
+}
+
+.maps .btnMaps:hover {
+  background-color: #575757;
+}
+
+.section1 {
+  width: 100%;
+  background-image: url(../Asset/BG/BG3.png);
+  background-position: 1px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1 .text1 h1 {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+.section1 .text1 h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: -10px;
+  color: whitesmoke;
+  font-weight: 100;
+}
+
+.pembagi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.pembagi .formbox {
+  color: whitesmoke;
+  padding-top: 70px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+.pembagi .formbox2 {
+  color: whitesmoke;
+  padding-top: 70px;
+}
+
+.formbox .firstname {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.formbox .username {
+  font-size: 20px;
+  padding-right: 17px;
+}
+
+.formbox2 .password {
+  font-size: 20px;
+  padding-right: 9px;
+}
+
+.formbox2 .lastname {
+  font-size: 20px;
+}
+
+.formbox .first {
+  border: 2px solid white;
+  background-color: transparent;
+  padding-bottom: 8px;
+  padding-right: 100px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.formbox .user {
+  border: 2px solid white;
+  background-color: transparent;
+  padding-bottom: 8px;
+  padding-right: 100px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.formbox2 .last {
+  border: 2px solid white;
+  background-color: transparent;
+  padding-bottom: 8px;
+  padding-right: 100px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.formbox2 .pass {
+  border: 2px solid white;
+  background-color: transparent;
+  padding-bottom: 8px;
+  padding-right: 100px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.formbox3 {
+  color: whitesmoke;
+}
+
+.formbox3 .address {
+  font-size: 20px;
+  padding-right: 53px;
+}
+
+.formbox3 .add {
+  border: 2px solid white;
+  background-color: transparent;
+  padding-bottom: 8px;
+  padding-right: 516px;
+  color: whitesmoke;
+}
+
+.pembagi2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formbox4 {
+  color: whitesmoke;
+  padding-top: 115px;
+  /* background-color: teal; */
+}
+
+.formbox5 {
+  color: whitesmoke;
+  padding-top: 115px;
+  padding-right: 100px;
+  margin-left: 90px;
+  margin-right: -100px;
+}
+
+.copies {
+  font-size: 20px;
+}
+
+.formbox4 .copy {
+  padding-right: 60px;
+  padding-bottom: 8px;
+  border: 2px solid white;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.typeof {
+  font-size: 20px;
+}
+
+.formbox5 .type {
+  padding-right: 170px;
+  padding-bottom: 8px;
+  border: 2px solid white;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.formbox6 {
+  padding-top: 40px;
+}
+
+.agree {
+  color: whitesmoke;
+}
+
+.agree2 {
+  color: #0b79d6;
+}
+
+.buttonPO {
+  border: 2px solid whitesmoke;
+  background-color: black;
+  padding: 8px 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 12pt;
+  margin-top: 35px;
+}
+
+.imgall {
+  margin-top: 270px;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.gambar1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 20%;
+}
+
+.gambar2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  z-index: 20;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #191919;
+}
+
+.footerKiri {
+  width: 50%;
+  margin-right: 1px;
+  margin-left: 80px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.footerKanan {
+  display: flex;
+  flex-direction: row;
+  /* align-content: center; */
+  align-items: center;
+  width: 50%;
+  font-size: 0.4vw;
+  color: whitesmoke;
+  margin-left: 85px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .container {
+    width: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    background-color: #272727;
+  }
+
+  .header .headerKiri {
+    width: 80%;
+  }
+
+  .header .headerKiri .logo img {
+    height: 45px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 50px;
+
+  }
+
+  .header .headerKanan {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header .avatar img {
+    height: 90%;
+    width: 90%;
+  }
+
+  .header .lang img {
+    width: 28px;
+    height: 23px;
+  }
+
+  .header .dropdown img {
+    width: 15px;
+    height: 11px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-right: 79px;
+  }
+
+  .header2 {
+    display: flex;
+    flex-direction: row;
+    background: #272727;
+    border-top: white;
+    border-bottom: white;
+    border-style: solid;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header2 .logo2 img {
+    height: 60px;
+    width: 160px;
+    margin-left: 80px;
+    margin-right: 40px;
+  }
+
+  .header2 .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .home .btnHome {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 2vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+  }
+
+  .operators .btnOperators {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 2vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+  }
+
+  .preorder .btnPreorder {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 2vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+  }
+
+  .navbar .others {
+    padding-top: 20px;
+    font-size: 2vw;
+  }
+
+  .navbar .other {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .other .dropdown img {
+    width: 15px;
+    height: 11px;
+    margin-left: 10px;
+  }
+
+  .dropdownnya {
+    display: none;
+  }
+
+  .quarantine .btnQuarantine {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    font-size: 2vw;
+    background-color: #617be3;
+    margin-top: 20px;
+    margin-left: -20px;
+    padding-left: 20px;
+    color: whitesmoke;
+  }
+
+  .maps .btnMaps {
+    cursor: pointer;
+    border: none;
+    padding-right: 77px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    font-size: 2vw;
+    background-color: #617be3;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+  }
+
+  .home .btnHome:hover {
+    background-color: #617be3;
+  }
+
+  .operators .btnOperators:hover {
+    background-color: #617be3;
+  }
+
+  .preorder .btnPreorder:hover {
+    background-color: #617be3;
+  }
+
+  .navbar .others:hover {
+    background-color: #617be3;
+  }
+
+  .navbar .others:hover .dropdownnya {
+    /* background-color: #617be3; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quarantine .btnQuarantine:hover {
+    background-color: #575757;
+  }
+
+  .maps .btnMaps:hover {
+    background-color: #575757;
+  }
+
+
+  .section1 {
+    width: 100%;
+    background-image: url(../Asset/BG/BG3.png);
+    background-position: 1px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .section1 .text1 h1 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    color: whitesmoke;
+  }
+
+  .section1 .text1 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: -10px;
+    color: whitesmoke;
+    font-weight: 100;
+  }
+
+  .pembagi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .pembagi .formbox {
+    color: whitesmoke;
+    padding-top: 70px;
+    padding-right: 30px;
+    text-align: left;
+  }
+
+  .pembagi .formbox2 {
+    color: whitesmoke;
+    padding-top: 70px;
+  }
+
+  .formbox .firstname {
+    font-size: 20px;
+    padding-right: 10px;
+    margin-left: 50px;
+  }
+
+  .formbox .username {
+    font-size: 20px;
+    padding-right: 17px;
+    margin-left: 50px;
+  }
+
+  .formbox2 .password {
+    font-size: 20px;
+    padding-right: 9px;
+    margin-left: 10px;
+  }
+
+  .formbox2 .lastname {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .formbox .first {
+    border: 2px solid white;
+    background-color: transparent;
+    padding-bottom: 8px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+
+  .formbox .user {
+    border: 2px solid white;
+    background-color: transparent;
+    padding-bottom: 8px;
+    padding-right: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+
+  .formbox2 .last {
+    border: 2px solid white;
+    background-color: transparent;
+    padding-bottom: 8px;
+    padding-right: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+
+  .formbox2 .pass {
+    border: 2px solid white;
+    background-color: transparent;
+    padding-bottom: 8px;
+    padding-right: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+
+  .formbox3 {
+    color: whitesmoke;
+  }
+
+  .formbox3 .address {
+    font-size: 20px;
+    padding-right: 53px;
+    margin-left: 50px;
+  }
+
+  .formbox3 .add {
+    border: 2px solid white;
+    background-color: transparent;
+    padding-bottom: 8px;
+    padding-right: 516px;
+    color: whitesmoke;
+    margin-left: 50px;
+  }
+
+  .pembagi2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .formbox4 {
+    color: whitesmoke;
+    padding-top: 115px;
+    /* background-color: teal; */
+  }
+
+  .formbox5 {
+    color: whitesmoke;
+    padding-top: 115px;
+    padding-right: 100px;
+    margin-left: 90px;
+    margin-right: -100px;
+  }
+
+  .copies {
+    font-size: 20px;
+  }
+
+  .formbox4 .copy {
+    padding-right: 60px;
+    padding-bottom: 8px;
+    border: 2px solid white;
+    background-color: black;
+    color: whitesmoke;
+  }
+
+  .typeof {
+    font-size: 20px;
+  }
+
+  .formbox5 .type {
+    padding-right: 170px;
+    padding-bottom: 8px;
+    border: 2px solid white;
+    background-color: black;
+    color: whitesmoke;
+  }
+
+  .formbox6 {
+    padding-top: 40px;
+  }
+
+  .agree {
+    color: whitesmoke;
+  }
+
+  .agree2 {
+    color: #0b79d6;
+  }
+
+  .buttonPO {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    padding: 8px 10px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 12pt;
+    margin-top: 35px;
+  }
+
+  .imgall {
+    margin-top: 270px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .gambar1 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 20%;
+  }
+
+  .gambar2 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #191919;
+  }
+
+  .footerKiri {
+    width: 50%;
+    margin-right: 1px;
+    /* margin-left: 80px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .footerKiri img {
+    margin-bottom: 10px;
+  }
+
+  .footerKanan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    font-size: 1vw;
+    color: whitesmoke;
+    margin-left: 85px;
+  }
+}

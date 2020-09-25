@@ -1,0 +1,797 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.container {
+    width: auto;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #272727;
+}
+
+.header .headerKiri {
+    width: 90%;
+}
+
+.header .headerKiri .logo img {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 120px;
+    margin-left: 73px;
+
+}
+
+.header .headerKanan {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .avatar img {
+    height: 70%;
+    width: 70%;
+}
+
+.header .lang img {
+    width: 28px;
+    height: 23px;
+}
+
+.header .dropdown img {
+    width: 15px;
+    height: 11px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    background: #272727;
+    border-top: white;
+    border-bottom: white;
+    border-style: solid;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header2 .logo2 img {
+    height: 60px;
+    width: 160px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.header2 .navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    width: 60px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.home .btnHome {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 1vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.operators .btnOperators {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 1vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.preorder .btnPreorder {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    font-size: 1vw;
+    background-color: #272727;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.navbar .others {
+    padding-top: 20px;
+    font-size: 1vw;
+}
+
+.navbar .other {
+    display: flex;
+    flex-direction: row;
+}
+
+.other .dropdown img {
+    width: 15px;
+    height: 11px;
+    margin-left: 10px;
+}
+
+.dropdownnya {
+    display: none;
+}
+
+.quarantine .btnQuarantine {
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    font-size: 1vw;
+    background-color: #617be3;
+    margin-top: 20px;
+    margin-left: -20px;
+    padding-left: 20px;
+    color: whitesmoke;
+}
+
+.maps .btnMaps {
+    cursor: pointer;
+    border: none;
+    padding-right: 77px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    font-size: 1vw;
+    background-color: #617be3;
+    color: whitesmoke;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.home .btnHome:hover {
+    background-color: #617be3;
+}
+
+.operators .btnOperators:hover {
+    background-color: #617be3;
+}
+
+.preorder .btnPreorder:hover {
+    background-color: #617be3;
+}
+
+.navbar .others:hover {
+    background-color: #617be3;
+}
+
+.navbar .others:hover .dropdownnya {
+    /* background-color: #617be3; */
+    display: flex;
+    flex-direction: column;
+}
+
+.quarantine .btnQuarantine:hover {
+    background-color: #575757;
+}
+
+.maps .btnMaps:hover {
+    background-color: #575757;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 929px;
+    background-image: url(../Asset/Section\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section1 .logoTembakan {
+    height: 405px;
+    width: 450px;
+    margin-right: 250px;
+    margin-top: 60px;
+}
+
+.section1 .buyBtn {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 18pt;
+    margin-top: 190px;
+}
+
+.buttonBeli {
+    margin-right: 97px;
+}
+
+.section1 .buyBtn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.section1 .available {
+    color: whitesmoke;
+    font-size: 22pt;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+
+.section1 .windows {
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.section2 {
+    background-image: url(../Asset/bg-item.png);
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.section2 .judulnya {
+    color: whitesmoke;
+    text-align: center;
+    padding-right: 80px;
+    font-weight: bold;
+    margin-left: 69px;
+    margin-right: 69px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30pt;
+}
+
+
+#slider {
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+}
+
+#slider .slides-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#slider .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+#slider .slide:first-child {
+    display: block;
+}
+
+#slider .slide .text {
+    width: 100%;
+    height: 100%;
+    background: #8fc6eb;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#slider img {
+    width: 100%;
+    height: 100%;
+}
+
+#slider .pager {
+    font-size: 14px;
+    font-weight: 900;
+    color: #777;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#slider .arrows a {
+    position: absolute;
+    text-decoration: none;
+    padding-top: 4%;
+    color: rgba(255, 255, 255, 0.65);
+    top: 43%;
+    left: 15px;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 42px;
+}
+
+#slider .arrows a:hover {
+    color: whitesmoke;
+}
+
+#slider .arrows a.next {
+    left: initial;
+    right: 15px;
+}
+
+#slider .pager {
+    color: whitesmoke;
+    margin-bottom: 1%;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../Asset/Section\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.section3 .operator {
+    width: 30%;
+}
+
+.section3 .ourOperators {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.section3 .ourOperators .judul1-section3 {
+    text-align: right;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 8vw;
+}
+
+.section3 .ourOperators .judul2-section3 {
+    text-align: right;
+    color: #787878;
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+.section3 .btnSee {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.section3 .seeBtn {
+    border: 2px solid whitesmoke;
+    background-color: black;
+    padding: 10% 20%;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 1vw;
+}
+
+.section3 .seeBtn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.section4 {
+    background-image: url(../Asset/Section\ 3.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+.section4 h1 {
+    margin-top: 40px;
+}
+
+.pembagi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.pembagi .upcoming {
+    border: 2px solid #8e8f8e;
+    padding-right: 100px;
+    padding-left: 30px;
+    background-color: #2d322d;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.upcoming h1 {
+    margin-bottom: 40px;
+    font-size: 3vw;
+}
+
+.upcoming h3 {
+    font-weight: 100;
+    padding-bottom: 5px;
+    font-size: 1.5vw;
+}
+
+.pembagi .prev {
+    width: 30%;
+    border: 2px solid #8e8f8e;
+    padding-right: 100px;
+    padding-left: 30px;
+    background-color: #2d322d;
+    margin-top: 50px;
+}
+
+.prev h1 {
+    margin-bottom: 40px;
+    font-size: 3vw;
+}
+
+.prev h3 {
+    font-weight: 100;
+    padding-bottom: 5px;
+    font-size: 1.5vw;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #191919;
+}
+
+.footerKiri {
+    width: 50%;
+    margin-right: 1px;
+    margin-left: 80px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footerKanan {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    font-size: 0.4vw;
+    color: whitesmoke;
+    margin-left: 85px;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header .headerKiri {
+        width: 80%;
+    }
+
+    .header .headerKiri .logo img {
+        display: flex;
+        flex-direction: row;
+        height: 45px;
+        width: 120px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: 70px;
+    }
+
+    .header .headerKanan {
+        display: flex;
+        flex-direction: row;
+        width: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header .avatar img {
+        height: 90%;
+        width: 90%;
+    }
+
+    .header .lang img {
+        width: 28px;
+        height: 23px;
+    }
+
+    .header .dropdown img {
+        width: 15px;
+        height: 11px;
+        padding-bottom: 2px;
+        padding-left: 2px;
+        margin-right: 79px;
+    }
+
+    .header2 {
+        display: flex;
+        flex-direction: row;
+        background: #272727;
+        border-top: white;
+        border-bottom: white;
+        border-style: solid;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .header2 .logo2 img {
+        height: 60px;
+        width: 160px;
+        margin-left: 80px;
+        margin-right: 40px;
+    }
+
+    .header2 .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .home .btnHome {
+        cursor: pointer;
+        border: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        font-size: 2vw;
+        background-color: #272727;
+        color: whitesmoke;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .operators .btnOperators {
+        cursor: pointer;
+        border: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        font-size: 2vw;
+        background-color: #272727;
+        color: whitesmoke;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .preorder .btnPreorder {
+        cursor: pointer;
+        border: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        font-size: 2vw;
+        background-color: #272727;
+        color: whitesmoke;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .navbar .others {
+        padding-top: 20px;
+        font-size: 2vw;
+    }
+
+    .navbar .other {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .other .dropdown img {
+        width: 15px;
+        height: 11px;
+        margin-left: 10px;
+    }
+
+    .quarantine .btnQuarantine {
+        cursor: pointer;
+        border: none;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 27px;
+        font-size: 2vw;
+        background-color: #617be3;
+        margin-top: 20px;
+        margin-left: -20px;
+        padding-left: 20px;
+        color: whitesmoke;
+    }
+
+    .maps .btnMaps {
+        cursor: pointer;
+        border: none;
+        padding-right: 79px;
+        padding-top: 20px;
+        padding-bottom: 27px;
+        font-size: 2vw;
+        background-color: #617be3;
+        color: whitesmoke;
+        margin-left: -20px;
+        padding-left: 20px;
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: row;
+        background-image: url(../Asset/Section\ 2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .section3 img {
+        height: 500px;
+    }
+
+    .section3 .operator {
+        width: 30%;
+    }
+
+    .section3 .ourOperators {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .section3 .ourOperators h1 {
+        color: whitesmoke;
+        font-weight: 400;
+        font-size: 8vw;
+    }
+
+    .section3 .ourOperators h3 {
+        color: #787878;
+        font-weight: 100;
+        font-size: 3vw;
+    }
+
+    .section3 .seeBtn {
+        border: 1% solid whitesmoke;
+        background-color: black;
+        padding: 10% 20%;
+        cursor: pointer;
+        color: whitesmoke;
+        font-size: 1vw;
+    }
+
+    .section3 .seeBtn:hover {
+        background-color: whitesmoke;
+        color: black;
+    }
+
+    .section4 {
+        background-image: url(../Asset/Section\ 3.png);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: whitesmoke;
+    }
+
+    .section4 h1 {
+        margin-top: 40px;
+    }
+
+    .pembagi {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .pembagi .upcoming {
+        border: 2px solid #8e8f8e;
+        padding-right: 100px;
+        padding-left: 30px;
+        background-color: #2d322d;
+        width: 30%;
+        margin-top: 50px;
+    }
+
+    .upcoming h1 {
+        margin-bottom: 40px;
+        font-size: 3vw;
+    }
+
+    .upcoming h3 {
+        font-weight: 100;
+        padding-bottom: 5px;
+        font-size: 1.5vw;
+    }
+
+    .pembagi .prev {
+        width: 30%;
+        border: 2px solid #8e8f8e;
+        padding-right: 100px;
+        padding-left: 30px;
+        background-color: #2d322d;
+        margin-top: 50px;
+    }
+
+    .prev h1 {
+        margin-bottom: 40px;
+        font-size: 3vw;
+    }
+
+    .prev h3 {
+        font-weight: 100;
+        padding-bottom: 5px;
+        font-size: 1.5vw;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        background-color: #191919;
+    }
+
+    .footerKiri {
+        width: 50%;
+        margin-right: 1px;
+        /* margin-left: 80px; */
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .footerKiri img {
+        margin-bottom: 10px;
+    }
+
+    .footerKanan {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 50%;
+        font-size: 1vw;
+        color: whitesmoke;
+        margin-left: 85px;
+    }
+}
